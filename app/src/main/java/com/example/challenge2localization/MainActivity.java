@@ -17,6 +17,7 @@ import com.example.challenge2localization.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,19 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+
+
+//        setContentView(R.layout.fragment_first);
+//        final Button findBeaconButton = (Button) findViewById(R.id.findBeaconButton);
+//        findBeaconButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                // here we will specify what happens when the button is clicked
+//                System.out.println("I have been clicked!");
+//            }
+//        });
+
+
 
 //        binding.fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
