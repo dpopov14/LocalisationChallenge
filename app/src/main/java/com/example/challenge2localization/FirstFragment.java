@@ -12,7 +12,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.example.challenge2localization.databinding.FragmentFirstBinding;
 
 public class FirstFragment extends Fragment {
-
+    //fisrt commit and push
     private FragmentFirstBinding binding;
 
     @Override
